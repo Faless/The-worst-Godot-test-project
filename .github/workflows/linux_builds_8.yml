@@ -47,7 +47,7 @@ jobs:
         run: |
           git clone https://github.com/godotengine/godot.git
           cd godot
-          git checkout f2739b3f526a3f2ef073de4bdf2e86286ea0da15
+          git checkout 2f1a8ae751af0587d95f06a2c849e083446621dc
           cd ../
 
       - name: Compile Godot
